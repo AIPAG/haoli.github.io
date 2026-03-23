@@ -25,7 +25,7 @@ One of my papers was awarded the **Best Paper Award**. My work aims to bridge th
 *   **First Prize**, Electronic Information Science and Technology Award (Chinese Institute of Electronics).
 *   **Youth Innovation Promotion Association**, Chinese Academy of Sciences (CAS).
 
-## 📧 What's New
+## ⚡ What's New
 
 - **[2026.01]** One paper got accepted in TIFS 2026!
 - **[2025.10]** I’ll join the PC of www 2026!
