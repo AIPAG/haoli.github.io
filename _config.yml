@@ -21,7 +21,7 @@ repository               : "AIPAG/aipag.github.io"
 # Site Author
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "assets/images/profile.png"
   name             : "Hao Li"
   pronouns         : 
   # 侧边栏简介：
