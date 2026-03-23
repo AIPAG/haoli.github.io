@@ -1,0 +1,63 @@
+/* 为新闻和关于我部分添加圆角卡片风格 */
+
+/* 1. 针对 h2 标题下方的所有内容块 (假设您用 ## 标题) */
+h2#news, h2#about-me, h2#publications {
+  /* 如果标题有 ID，可以这样选，或者直接用下面的通用选择器 */
+}
+
+/* 2. 通用方案：选中 h2 标题及其紧随的列表/段落，包裹在一个视觉容器中 */
+/* 这里我们直接美化 .markdown-body 中的 h2 和其后的内容 */
+
+.main-content {
+  /* 确保主内容区有足够内边距 */
+  padding: 1rem; 
+}
+
+/* 选中所有的二级标题 (##) */
+h2 {
+  border-bottom: 2px solid #eaeaea; /* 标题下方加一条淡线 */
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  color: #333;
+}
+
+/* 选中标题后面的段落、列表、代码块等，给它们加上卡片样式 */
+h2 + ul, 
+h2 + ol, 
+h2 + p, 
+h2 + div {
+  background-color: #ffffff; /* 白色背景 */
+  border: 1px solid #e0e0e0; /* 淡灰色边框 */
+  border-radius: 12px;       /* 圆角大小 (12像素) */
+  padding: 1.5rem;           /* 内部留白 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* 轻微的阴影，增加立体感 */
+  margin-bottom: 2rem;       /* 底部间距 */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* 鼠标悬停动画 */
+}
+
+/* 鼠标悬停时的效果：稍微上浮，阴影加深 */
+h2 + ul:hover, 
+h2 + ol:hover, 
+h2 + p:hover, 
+h2 + div:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  border-color: #d0d0d0;
+}
+
+/* 针对列表项内部的优化 */
+h2 + ul li, 
+h2 + ol li {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
+/* 如果是新闻列表，让日期加粗 */
+h2#news + ul li strong, 
+h2 + ul li strong {
+  color: #2c3e50;
+  background: #f0f4f8;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
