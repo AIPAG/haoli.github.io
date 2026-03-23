@@ -8,9 +8,9 @@ title: ""
 
 I am currently a Professor at the **Institute of Software, Chinese Academy of Sciences (ISCAS)**. I also serve as a **Master's Supervisor**, welcoming motivated students to join our research group.
 
-My research career has been dedicated to the field of **Data Security**. Recently, my primary focus has shifted to the intersection of artificial intelligence and security, specifically:
-*   **AI Security & Privacy**: Investigating membership inference attacks, defense mechanisms, and privacy-preserving technologies in AI systems.
-*   **Data Security**: Fundamental theories and applications in securing data lifecycle, such as Access control.
+My research focuses on **data security**, with recent efforts directed toward the intersection of artificial intelligence and security. In particular, we study:
+*   **AI Security & Privacy**: We investigate membership inference attacks, emerging threats such as model hijacking and agent hijacking, as well as corresponding defense mechanisms and privacy-preserving techniques in AI systems.
+*   **Data Security**: We study fundamental principles and practical frameworks for securing the data lifecycle, including access control.
 
 ## 📝 Publications
 
