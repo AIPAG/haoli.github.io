@@ -1,9 +1,7 @@
 ---
-layout: single          # 👈 改成 single
-author_profile: true    # 👈 确保这行存在
-title: "Home"           # 👈 可选：设置页面标题
-header:
-  overlay_color: "#5e616c"
+layout: single
+author_profile: true
+title: "Home"
 excerpt: "Professor at ISCAS. Researching AI Security and Privacy."
 ---
 
