@@ -9,6 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
+<!-- 添加一个不可见的占位符 + 分隔线 -->
+<div style="height: 20px;"></div>
+<hr />
+<div style="height: 30px;"></div>
+
 Education
 ======
 * Ph.D. in Information Security, Institute of Software, Chinese Academy of Sciences (ISCAS), advised by Dengguo Feng, 2011
