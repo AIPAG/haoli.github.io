@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: " "
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,11 +8,6 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-<!-- 添加一个不可见的占位符 + 分隔线 -->
-<div style="height: 20px;"></div>
-<hr />
-<div style="height: 30px;"></div>
 
 Education
 ======
